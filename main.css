@@ -308,6 +308,11 @@ h1 {
   z-index: 0;
 }
 
+#projects{
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1.2rem;
+}
 
 #about-a .about-info {
   display: grid;
