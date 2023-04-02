@@ -309,7 +309,6 @@ h1 {
 }
 
 
-
 #about-a .about-info {
   display: grid;
   grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
