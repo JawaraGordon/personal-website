@@ -164,7 +164,28 @@ img {
   opacity: 0.7;
 }
 
-/*Tried to Resize img w/ CSS 
+
+/* modal */
+.w3-modal-content{
+  color: black;
+  padding-top: 25vh;
+  margin-top: 25vh !important;
+  
+}
+.modal-header{
+  color: #fff;
+  background-color: #333;
+}
+
+.w3-modal{
+  z-index: 24 !important;
+}
+
+.w3-button{
+  border-radius: 20px;
+}
+
+/* Resize img w/ CSS 
 
 .crop {
   
