@@ -170,7 +170,7 @@ img {
   color: black;
   padding-top: 25vh;
   margin-top: 25vh !important;
-  
+  max-width: 600px;
 }
 .modal-header{
   color: #fff;
@@ -184,6 +184,21 @@ img {
 .w3-button{
   border-radius: 20px;
 }
+
+.modal-icon-container{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: center;
+
+}
+
+.modal-icon{
+  padding: .5rem 0;
+  width: 20%;
+}
+
+
 
 /* Resize img w/ CSS 
 
