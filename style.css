@@ -169,7 +169,7 @@ img {
 .w3-modal-content{
   color: black;
   padding-top: 25vh;
-  margin-top: 25vh !important;
+  margin-top: 20vh !important;
   max-width: 600px;
 }
 .modal-header{
