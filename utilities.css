@@ -180,8 +180,16 @@
     padding: 2rem;
     border: 2px solid #000;
   }
+
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  }
+
+  .card-text{
+    text-align: left;
+  }
+  .card a{
+    color: #2867c3;
   }
   
   .card-container {
