@@ -198,6 +198,8 @@
   }
 
   /* fade on scroll */
+
+
   .scroll-text{
     padding-top: 10rem;
   }
@@ -206,11 +208,10 @@
     opacity: 0;
     filter: blur(5px);
     transition: all 2s;
-   
   }
 
   .show {
     opacity: 1;
     filter: blur(0);
     transition: all 2s;
-  }
+  } 
