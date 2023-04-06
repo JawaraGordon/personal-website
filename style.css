@@ -344,11 +344,13 @@ img {
   }
 
   .icon-img{
-    width: 100px;
+    width: 200px;
   border-radius: 75%;
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto 30px;
   }
+
 
   .flex-columns .column,
   .flex-grid .column {
@@ -392,7 +394,7 @@ img {
   }
 
   .icon-img{
-    width: 100px;
+    width: 200px;
   border-radius: 75%;
   display: block;
   margin: 0 auto 30px;
