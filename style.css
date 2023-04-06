@@ -167,6 +167,10 @@ img {
   opacity: 0.7;
 }
 
+.project-logo {
+  width: 30%;
+}
+
 
 /* modal */
 .w3-modal-content{
