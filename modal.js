@@ -28,22 +28,28 @@ window.onclick = function (event) {
 };
 
 const onHover = () => {
-  projectOne = document.getElementById('modal1');
-  projectTwo = document.getElementById('modal2');
-  projectThree = document.getElementById('modal3');
+  //check to see if user is on mobile
+  if ('ontouchstart' in document.documentElement) {
+    return;
+    // if on desktop enable onHover
+  } else {
+    projectOne = document.getElementById('modal1');
+    projectTwo = document.getElementById('modal2');
+    projectThree = document.getElementById('modal3');
 
-  projectOne.addEventListener('mouseover', function () {
-    console.log('onHover');
-    modalOne.style.display = 'block';
-  });
-  projectTwo.addEventListener('mouseover', function () {
-    console.log('onHover');
-    modalTwo.style.display = 'block';
-  });
-  projectThree.addEventListener('mouseover', function () {
-    console.log('onHover');
-    modalFive.style.display = 'block';
-  });
+    projectOne.addEventListener('mouseover', function () {
+      console.log('onHover');
+      modalOne.style.display = 'block';
+    });
+    projectTwo.addEventListener('mouseover', function () {
+      console.log('onHover');
+      modalTwo.style.display = 'block';
+    });
+    projectThree.addEventListener('mouseover', function () {
+      console.log('onHover');
+      modalFive.style.display = 'block';
+    });
+  }
 };
 
 onHover();
