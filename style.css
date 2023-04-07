@@ -89,6 +89,7 @@ img {
   height: 100vh;
   position: relative;
   color: #fff;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 50% 100%, 0 90%);
 }
 
 .hero .content {
