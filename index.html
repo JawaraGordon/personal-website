@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css"/> 
     <link rel="stylesheet" href="./utilities.css"/>
-    <!-- <link rel="stylesheet" href="./main.css"/> -->
+    
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     
@@ -30,6 +30,50 @@
                 </ul>
             </nav>
         </div>
+        <div class="slider-container">
+            <form>
+                <!-- <legend>Color</legend> -->
+              <fieldset>
+                <label for="r">R</label>
+                <input
+                  type="range"
+                  min="0"
+                  max="255"
+                  id="r"
+                  name="r"
+                  step="1"
+                  value="0"
+                />
+                <output for="r" id="r-out">0</output> </fieldset>
+                <fieldset>
+                <label for="g">G</label>
+                <input
+                  type="range"
+                  min="0"
+                  max="255"
+                  id="g"
+                  name="g"
+                  step="1"
+                  value="0"
+                  
+                /><output for="g" id="g-out">0</output></fieldset>
+                <fieldset>
+                <label for="b">B</label>
+                <input
+                  type="range"
+                  min="0"
+                  max="255"
+                  id="b"
+                  name="b"
+                  step="1"
+                  value="0"
+                /><output for="b" id="b-out">0</output></fieldset>
+              </fieldset>
+              <div class="hex-container">
+                <output id="hex">#000000</output>
+            </div>
+            </form>
+          </div>
         <div class="content">
             <div><img alt="github" src="https://jawaragordon.com/img/headshotsmsq.png"></div>
             <h1>Jawara Gordon</h1>
@@ -40,10 +84,12 @@
         </header>
         
        
-    <main id="body-container">
+    <main >
         <!-- Projects-->
                
-        </section> 
+        <div id="body-container">
+
+        
         <section id="projects" class="icons bg-dark ">
             <br><br><br>
 
@@ -344,6 +390,7 @@
                         </div>
                  </div>
         </section>
+    </div>
     </main> 
         <!--About-->
 
@@ -434,6 +481,7 @@
   <script src="./main.js"></script>
   <script src="./modal.js"></script>
   <script src="./fadeOnScroll.js"></script>
+  <script src="./colorSlider.js"></script>
   
 </body>
 </html>
