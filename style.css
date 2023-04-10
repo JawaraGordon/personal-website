@@ -16,9 +16,12 @@ body {
 
 main {
   background-color: #333;
+  
 }
 
-#body-container { max-width: 900px; margin:auto; }
+#body-container { max-width: 900px; margin:auto; 
+
+}
 
 ul {
   list-style: none;
@@ -94,6 +97,8 @@ img {
   position: relative;
   color: #fff;
   z-index: 10;
+  
+  
 }
 
 .hero .content {
@@ -104,6 +109,9 @@ img {
   text-align: center;
   height: 100%;
   padding: 0 20px;
+  
+  
+  
 }
 
 .hero .content h1 {
@@ -124,10 +132,12 @@ img {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
+  
 }
 
 .hero * {
   z-index: 10;
+  
 }
 
 .hero.blog {
@@ -135,7 +145,8 @@ img {
   height: 40vh;
 }
 
-.video-wrapper {
+
+/* .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
@@ -147,7 +158,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-}
+} */
 
 /* Icons */
 
@@ -175,6 +186,9 @@ img {
 .project-logo {
   width: 30%;
 }
+
+
+
 
 
 /* modal */
@@ -216,6 +230,10 @@ img {
   padding: 1rem;
   max-width: 33%;
   margin: auto;
+}
+
+#id02{
+  margin-bottom: 2rem;
 }
 
 
@@ -306,6 +324,9 @@ font-size: 1.5rem;
 #b-out{
   display:none;
 }
+
+
+​
 
 
 .project-card1,
