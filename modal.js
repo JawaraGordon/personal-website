@@ -1,8 +1,4 @@
-// // Get the modal
-// // const modal = document.querySelectorAll(
-// //   '#id01, #id02, #id03, #id04, #id05, #id06'
-// // );
-
+// Get the modal elements
 const modalOne = document.getElementById('id01');
 const modalTwo = document.getElementById('id02');
 const modalThree = document.getElementById('id03');
@@ -10,7 +6,7 @@ const modalFour = document.getElementById('id04');
 const modalFive = document.getElementById('id05');
 const modalSix = document.getElementById('id06');
 
-// When the user clicks anywhere outside of the modalOne, close it
+// When the user clicks anywhere outside of the modals, close them
 window.onclick = function (event) {
   if (event.target == modalOne) {
     modalOne.style.display = 'none';
@@ -28,14 +24,15 @@ window.onclick = function (event) {
 };
 
 const onHover = () => {
-  //check to see if user is on mobile
+  // Check to see if user is on mobile
   if ('ontouchstart' in document.documentElement) {
     return;
-    // if on desktop enable onHover
+    // If on desktop, enable onHover
   } else {
     projectOne = document.getElementById('modal1');
     projectTwo = document.getElementById('modal2');
     projectThree = document.getElementById('modal3');
+    projectFour = document.getElementById('modal4'); // New project
 
     projectOne.addEventListener('mouseover', function () {
       console.log('onHover');
@@ -48,6 +45,10 @@ const onHover = () => {
     projectThree.addEventListener('mouseover', function () {
       console.log('onHover');
       modalFive.style.display = 'block';
+    });
+    projectFour.addEventListener('mouseover', function () {
+      console.log('onHover');
+      modalSix.style.display = 'block'; 
     });
   }
 };
