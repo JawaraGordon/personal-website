@@ -49,8 +49,6 @@ img {
 
 /* Navbar */
 
-
-
 .navbar {
   display: flex;
   align-items: center;
@@ -64,8 +62,6 @@ img {
   top: 0px;
   padding: 0 30px;
   transition: 0.5s;
- 
-  
 }
 
 .navbar a {
@@ -325,6 +321,10 @@ output[for='b'] {
 .project-card2,
 .project-card3 {
   border: #f5f5f5f5 1px solid;
+}
+
+.about-card {
+  width: 33%;
 }
 
 .blog-img {
