@@ -396,7 +396,7 @@ output[for='b'] {
 }
 
 .blog-section{
-  max-width: 900px;
+  max-width: 600px;
   display: flex;
   margin: auto;
 }
