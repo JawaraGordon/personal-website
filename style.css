@@ -517,6 +517,10 @@ output[for='b'] {
   .team .img {
     width: 70%;
   }
+
+  .about-card {
+    width: 100%;
+  }
 }
 @media (max-width: 375px) {
   .navbar {
