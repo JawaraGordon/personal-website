@@ -395,6 +395,17 @@ output[for='b'] {
   font-size: 20px;
 }
 
+.blog-section{
+  max-width: 900px;
+  display: flex;
+  margin: auto;
+}
+
+#pocit img{
+  max-height: 168px;
+  width: auto;
+}
+
 /* Slide Decks */
 
 .slides {
@@ -444,6 +455,8 @@ output[for='b'] {
     grid-template-columns: 1fr;
   }
 }
+
+
 
 /*footer*/
 .footer {
@@ -499,6 +512,8 @@ output[for='b'] {
     display: block;
     /* margin: 0 auto 30px; */
   }
+
+  
 
   .icon-img {
     width: 200px;
