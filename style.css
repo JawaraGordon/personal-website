@@ -395,6 +395,50 @@ output[for='b'] {
   font-size: 20px;
 }
 
+/* Slide Decks */
+
+.slides {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.slide {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.presentation-column a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.presentation-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  max-width: 50px;
+  align-self: center;
+}
+@media (max-width: 600px) {
+  .slides {
+    grid-template-columns: 1fr;
+  }
+}
+
 /*footer*/
 .footer {
   display: flex;
