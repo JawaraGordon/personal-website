@@ -364,7 +364,7 @@ output[for='b'] {
 }
 
 .callback-form .btn {
-  padding: 12px 0;
+  /* padding: 12px 0; */
   margin-top: 20px;
 }
 
