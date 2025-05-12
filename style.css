@@ -181,6 +181,17 @@ img {
   width: 30%;
 }
 
+@media only screen and (max-width: 600px) {
+  #projects
+    > div.flex-items
+    > div:nth-child(1)
+    > div.fade-in-on-scroll.hidden.show
+    > img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
 /* modal */
 .w3-modal-content {
   color: black;
